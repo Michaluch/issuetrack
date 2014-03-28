@@ -1,0 +1,64 @@
+#filter {
+    position: relative;
+    width: 960px;
+    height: 60px;
+    background-color: #D1E3C2;
+    padding: 10px;
+    margin-bottom: 0;
+    color: #C0C0C0;
+}
+
+ #filter #select-sprint {
+    margin: 10px 0 0 20px;
+}
+
+#filter .slct {
+    background-color: #FAFFFA;
+    color: #33856E;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#filter h4 {
+    margin-left: 30px;
+    color: #33856E;
+    font-weight: normal;
+}
+
+
+#filter #inset {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+#filter #inset li {
+    display: inline-block;
+    width: 45px;
+    padding: 2px 25px;
+    margin-right: 3px;
+    font-size: 13px;
+    color: #33856E;
+    background: #FAFFFA;
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    transform: skewX(-30deg); 
+}
+
+#filter span {
+    display: block;
+    -webkit-transform: skewX(30deg);
+    -moz-transform: skewX(30deg);
+    -o-transform: skewX(30deg);
+    -ms-transform: skewX(30deg);
+    transform: skewX(30deg);
+}
+
+#filter #inset li:hover {
+    background: #6E914F;
+    color: #FAFFFA;
+    font-weight: bold;
+    cursor: pointer;
+}

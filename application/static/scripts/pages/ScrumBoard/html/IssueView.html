@@ -1,0 +1,44 @@
+<%
+    var kindColor = "";
+    kindColor = "story-color";
+    switch (issue.kind) {
+        case "story":          kindColor = "story-color"; break;
+        case "technical task": kindColor = "tech-color"; break;
+        case "bug":            kindColor = "bug-color"; break;
+    }
+
+    var mode = "";
+    var backlogMode = "";    
+    if (mode == "backlog") {
+        backlogMode = "backlog-mode"
+    }
+%>
+
+<div class="issue <%=kindColor%> <%=backlogMode%>" data-issue-id="<%= issue._id %>">
+    <div class="top-left-corner">
+        <% if (issue.status !== "doing" && issue.kind == "story" && mode !== "backlog") { %>
+            <span><img class="plus" src="static/images/plus.jpg"/>
+            <img class="minus lock" src="static/images/minus.jpg" /></span>
+        <% } %>
+        <span class="estimate">Estimate: <% if (issue.estimate) {%> <%=issue.estimate%> sp <%} else {%> no estimate <%}%></span>
+    </div>
+    <% if (mode == "backlog" || issue.status == "to do") { %>
+        <div class="top-right-corner">
+            <img class="image-edit" src="/static/images/edit.png" alt="edit" />
+            <img class="image-delete" src="/static/images/delete.png" alt="delete" />
+        </div>
+    <% } %>
+    <p class="name"><b><%= issue.name %></b></p>
+    <p class="description"><%= issue.description %></p>
+</div>
+<div class="subissue-container" data-issue-id="<%= issue._id %>"></div>
+
+<% if (issue.status == "to do" && issue.kind == "story" && mode !== "backlog") { %>
+    <div class="add-subissue "> <!-- lock -->
+        <input type="text" placeholder="Enter the name of subissue"/><br />
+        <textarea placeholder="Enter the description of subissue"></textarea><br />
+        <div class="submit-wrapper">
+            <input class="add" data-add-id="<%= issue._id %>" type="submit" value="Add subissue">
+        </div>
+    </div>
+<% } %>

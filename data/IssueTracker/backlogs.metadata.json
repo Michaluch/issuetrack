@@ -1,0 +1,1 @@
+{ "options" : { "create" : "IssueTracker.backlogs", "size" : "", "max" : "", "capped" : false }, "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "IssueTracker.backlogs", "name" : "_id_" } ] }

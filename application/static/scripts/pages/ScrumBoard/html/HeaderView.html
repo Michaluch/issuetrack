@@ -1,0 +1,8 @@
+<img id="header-logo" src="/static/images/logo.png" alt="IssueTrack logo" />
+<% if (user) { %>
+<div id="header-right-corner">
+    <img id="userpick" src="/static/images/userpick.png" alt="Avatar" /> 
+    <a id="a-team-member" href="#profile"><%= user.name ? user.name : "Team member" %></a>
+    <img id="logout-button" src="/static/images/logout.png" alt="Log out" />
+</div>
+<% } %>

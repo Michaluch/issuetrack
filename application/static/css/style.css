@@ -1,0 +1,65 @@
+@import url("./reset.css");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+textarea {
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    overflow: hidden;
+}
+
+#loading {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
+
+#wrapper {
+    width: 980px;
+    margin: auto;
+}
+
+.lock {
+    display: none;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    height: 20px;
+    background: #6E914F;
+    color: #FFFFFF;;
+    font-weight: normal;
+}
+
+.ui-widget-overlay {
+    background: #000000;
+    opacity: .6;
+}
+
+.ui-widget-content a {
+    color: #444444;
+}
+
+.ui-dialog {
+    overflow: visible;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    margin-top: 0;
+    background-color: #E8f4DD;
+}
+
+.ui-dialog .button{
+    color: #FFFFFF;
+    background: #6E914F;
+    height: 35px;
+    width: 130px;
+}
+
+

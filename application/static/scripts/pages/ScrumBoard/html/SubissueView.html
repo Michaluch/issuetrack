@@ -1,0 +1,27 @@
+<% 
+//    var kind = "subtask";
+//    var status = "to do";
+//    var estimate = 3;
+
+    var kindColor = "subtask-color";
+    if (obj.kind == "subtask") {
+        kindColor = "subtask-color";
+    }
+    if (obj.kind == "subbug") {
+        kindColor = "subbug-color";
+    }
+%>
+
+<div class="subissue <%= kindColor %>" data-parent="<%= obj.issue %>" data-id="<%= obj._id %>">
+    <div class="top-left-corner">
+    	<span class="estimate">Estimate: <% if (obj.estimate) {%> <%=obj.estimate%> sp <%} else {%> no estimate <%}%></span>
+    </div>
+    <% if (obj.status == "to do") { %>
+    <div class="top-right-corner">
+        <img class="image-edit" src="/static/images/edit.png" alt="edit" />
+        <img class="image-delete" src="/static/images/delete.png" alt="delete" />
+    </div>
+    <% } %>
+    <p class="name"><b><%= obj.name %></b></p>
+    <p class="description"><%= obj.description %></p>
+</div>

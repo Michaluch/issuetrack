@@ -1,0 +1,76 @@
+#backlog #backlog-content {
+    background-color: #FAFFFA;
+    padding: 20px 15px;
+}
+
+#backlog #product-backlog,
+#backlog #sprint-backlog {
+    float: left;
+    width: 470px;
+    background-color: #D1E3C2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#backlog #sprint-backlog {
+    margin-left: 10px;
+}
+
+#backlog #product-backlog #add-issue {
+    width: auto;
+    border: 1px solid #B2C0C0;
+    margin: 0 2px 2px;
+    padding: 10px;
+    background-color: #F7FAF4;
+}
+
+#backlog #product-backlog #add-issue input[type = "text"] {
+    width: 100%;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+#backlog #product-backlog #add-issue textarea {
+    resize: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+#backlog #product-backlog #submit {
+    margin-top: 3px;
+    width: 100px;
+    margin-left: auto;
+}
+#backlog #product-backlog #submit input {
+    width: 100%;
+}
+
+#backlog .clear {
+	clear: both;
+}
+
+#backlog .column-title {
+    color: #6E914F;
+    margin: 10px;
+}
+
+#backlog hr {
+    margin: 0 10px 10px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(110, 145, 79, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#backlog #submit {
+    margin-top: 3px;
+    width: 100px;
+    margin-left: auto;
+}
+
+#backlog input[type=submit]{
+    width: 100%;
+    background-color: #6E914F;
+    color: #FAFFFA;
+    font-weight: bold;
+}

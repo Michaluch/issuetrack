@@ -1,0 +1,51 @@
+#login {
+    background-color: #FAFFFA;
+    padding: 60px 0;
+}
+
+#login #log-in {
+    position: relative;
+    width: 350px;
+    height: 320px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border: 1px solid #C0CAD5;
+    background-color: #D1E3C2;
+}
+
+#login #log-image {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#login #log-image img {
+    border-radius: 55px;
+}
+
+#login #result {
+    text-align: center;
+    color: #6E914F;
+    font-weight: bold;
+    border: 1px solid #D1E3C2;
+}
+
+#login #login-form {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#login #login-form label {
+    float: left;
+    margin-left: 20px;
+    color: #6E914F;
+    font-weight: bold;
+}
+
+#login #login-form input[type=submit] {
+    margin-top: 35px;
+    background-color: #6E914F;
+    color: #FAFFFA;
+    border-color: #C0CAD5;
+    font-size: 14px;
+    font-weight: bold;
+}

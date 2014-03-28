@@ -1,0 +1,115 @@
+#dialog-edit {
+    overflow: visible;
+}
+
+#dialog-edit .dialog-form {
+    color: #444444;
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+#dialog-edit .dialog-form h3 {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+    margin-bottom: 5px;
+}
+
+#dialog-edit .dialog-form a {
+    text-decoration: none;
+}
+
+#dialog-edit .dialog-form input {
+    width: 575px;
+    font-size: 14px;
+    padding: 6px 0 4px 10px;
+    background: #E8E8E8;
+    border: 1px solid #CECECE;
+    border-radius: 5px;
+    color: #444444;
+}
+
+#dialog-edit .dialog-form textarea {
+    width: 575px;
+    height: 50px;
+    display: block;
+    resize: none;
+    overflow: auto;
+    background: #E8E8E8;
+    border: 1px solid #CECECE;
+    border-radius: 5px 0 0 0;
+    padding: 8px 0 8px 10px;
+    color: #444444;
+}
+
+#dialog-edit .select-type,
+#dialog-edit .select-estimate,
+#dialog-edit .select-member {
+    width: 200px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#dialog-edit .select-type h3,
+#dialog-edit .select-estimate h3,
+#dialog-edit .select-member h3{
+    color: #444444;
+    padding-left: 5px;
+}
+
+#dialog-edit .slct,
+#dialog-edit .drop li {
+    background: url(/static/images/sprite.png) 0 0 no-repeat;
+}
+
+#dialog-edit .slct {
+    width: 160px;
+    display: block;
+    background-position: 165px -148px;
+    background-color: #E8E8E8;
+    border: 1px solid #CECECE;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 4px 15px 4px 10px;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+#dialog-edit .slct.active {
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+}
+
+#dialog-edit .drop {
+    width: 185px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #CECECE;
+    border-top: none;
+    background-color: #F6F6F6;
+    border-radius: 0 0 5px 5px;
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+#dialog-edit .drop li {
+    padding: 4px 15px 4px 25px;
+    display: block;
+    list-style: none;
+    border-top: 1px dotted #CECECE;
+    cursor: pointer;
+    background-position: 10px -119px;
+}
+
+#dialog-edit .drop li:hover {
+    background-color: #D0D0D0;
+    color: #222;
+}
+
+#dialog-edit .clear {
+    clear: both;
+}

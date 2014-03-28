@@ -1,0 +1,40 @@
+#sprint #sprint-content {
+    background-color: #FAFFFA;
+    padding: 10px 15px;
+}
+
+#sprint .todo,
+#sprint .doing,
+#sprint .done {
+    float: left;
+    width: 310px;
+    background-color: #d1E3C2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#sprint .doing,
+#sprint .done {
+    margin-left: 10px;
+}
+
+#sprint .column-title {
+    color: #6E914F;
+    margin: 10px;
+}
+
+#sprint hr {
+    margin: 0 10px 10px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(110, 145, 79, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#sprint .clear {
+    clear: both;
+}
+
+#sprint .container {
+    border: 1px solid red;
+}

@@ -1,0 +1,29 @@
+/api
+    /users/
+        GET - get(filter)
+    /user/<int:id> - User()
+        GET - get(id)
+        PUT - edit(id, info)
+        POST - add(id, info)
+        DELETE - delete(id)
+    /projects/
+        GET - get(filter)
+    /project/<int:id> - Backlog()
+        GET - get()
+        PUT - edit(id, info)
+        POST - add(id, info)
+        DELETE - delete(id)
+    /issues/
+        GET - get(filter)
+    /issue/<int:id> - Issue()
+        GET - get(id)
+        PUT - edit(id, info)
+        POST - add(id, info)
+        DELETE - delete(id)
+    /subissues/
+        GET - get(filter)
+    /subissue/<int:id>
+        GET - get(id)
+        PUT - edit(id, info)
+        POST - add(id, info)
+        DELETE - delete(id)

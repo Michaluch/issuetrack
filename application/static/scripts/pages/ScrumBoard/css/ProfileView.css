@@ -1,0 +1,17 @@
+#profile {
+    background-color: #FAFFFA;
+    padding: 10px 15px;
+}
+
+#profile label {
+    display: block;
+    font-weight: bold;
+}
+
+#profile input {
+    display: block;
+}
+
+#profile input[type=submit] {
+    margin-top: 20px;
+}

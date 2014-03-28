@@ -1,0 +1,46 @@
+.subissue-wrapper .subissue {
+    width: 273px;
+    height: 65px;
+    border: 1px solid #B2C0C0;
+    background-color: #F7FAF4;
+    border-left-width: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    padding: 7px;
+}
+
+.subissue-wrapper .subtask-color {
+    border-left-color: #33856E;
+}
+
+.subissue-wrapper .subbug-color {
+    border-left-color: #993333;
+}
+
+.subissue-wrapper .top-left-corner {
+    float: left;
+    font-size: 10px;
+}
+
+.subissue-wrapper .top-right-corner {
+    float: right;
+    height: 15px;
+    font-size: 10px;
+}
+
+.subissue-wrapper .image-edit,
+.subissue-wrapper .image-delete {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.subissue-wrapper .image-edit:hover,
+.subissue-wrapper .image-delete:hover {
+    opacity: 1;
+}
+
+.subissue-wrapper p {
+    clear: both;
+}
